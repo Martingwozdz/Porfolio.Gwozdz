@@ -1,7 +1,7 @@
 {
   "sobreMi": {
     "title": "Sobre Mí",
-    "description": "Hola, soy Martin, estudiante de Ingeniería en Sistemas con una sólida formación en desarrollo web Fullstack, adquirida a través de un bootcamp de JavaScript. Mi pasión por la tecnología se complementa con mi profesionalismo y compromiso. Además, soy un deportista experimentado en yachting y kitesurf, disciplinas que practico desde niño y que me han enseñado disciplina, concentración y trabajo en equipo. Estoy siempre listo para asumir nuevos desafíos y aportar mi energía y entusiasmo. Si buscas a alguien que combine pasión, dedicación profesional y habilidades técnicas, soy la persona indicada para unirme a tu equipo y contribuir al éxito de tus proyectos.",
+    "description": "Hola, soy Martín un Desarrollador Full Stack que convierte desafíos complejos en soluciones elegantes.\n\nActualmente, soy el desarrollador IT exclusivo de Biras Creek Resort en las Islas Vírgenes Británicas, donde arquitecto y mantengo toda su infraestructura tecnológica de forma remota desde Buenos Aires. He construido desde una plataforma de reservas full-stack que procesa 200+ transacciones mensuales hasta workflows de automatización N8N que eliminaron 40+ horas de trabajo manual semanal.\n\nMi enfoque al desarrollo es directo: escribir código limpio, enfocarse en resultados y siempre optimizar para el usuario final. Trabajo principalmente con React, Node.js, Express, PostgreSQL y herramientas de automatización como N8N—pero me adapto rápidamente a cualquier tecnología que el proyecto demande.\n\nAntes de dedicarme full-time al desarrollo de software, pasé 15+ años como navegante profesional y actualmente compito en kitesurf a nivel nacional en Argentina. Ese background atlético me enseñó disciplina, pensamiento estratégico y cómo performar bajo presión—habilidades que se traducen directamente en entregar software de calidad con deadlines ajustados.\n\nSiempre estoy abierto a proyectos interesantes y nuevas oportunidades. Si buscás un developer que pueda trabajar de forma independiente, pensar estratégicamente y entregar resultados hablemos.",
     "personalData": "Datos Personales",
     "birthday": "Cumpleaños",
     "phone": "Teléfono",
@@ -22,11 +22,11 @@
   "skills": {
     "title": "Skills",
     "technicalSkills": "Habilidades Técnicas",
-    "javascript": "Javascript",
+    "javascript": "JavaScript",
     "htmlCss": "HTML & CSS",
     "postgresql": "PostgreSQL",
     "react": "React",
-    "redux": "Redux",
+    "N8N": "N8N (Automatización de Workflows)",
     "professionalSkills": "Habilidades Profesionales",
     "communication": "Comunicación",
     "teamwork": "Trabajo en Equipo",
@@ -34,41 +34,36 @@
     "adaptability": "Adaptabilidad",
     "problemSolving": "Resolución de Problemas"
   },
-    "inicio": {
-      "name": "Martin Gwozdz",
-      "title": "Ingeniero de Software en proceso - Desarrollador Full Stack"
-    },
-    
-      "portfolio": {
-        "title": "Portafolio",
-        "projects": [
-          {
-            "title": "Título del Proyecto 1",
-            "description": "Descripción breve del proyecto."
-          },
-          {
-            "title": "Título del Proyecto 2",
-            "description": "Descripción breve del proyecto."
-          }
-        ]
-      },
-
-      "navbar": {
-        "home": "INICIO",
-        "about": "SOBRE MI",
-        "skills": "SKILLS",
-        "projects": "PROYECTOS",
-        "contact": "CONTACTO",
-        "english": "EN",
-        "spanish": "ES"
-      },
-      "contact": {
-        "title": "Contacto",
-        "name": "Nombre",
-        "email": "Email",
-        "message": "Mensaje",
-        "send": "Enviar"
-      }
+  "inicio": {
+    "name": "Martin Gwozdz",
+    "title": "Ingeniero de Software en proceso - Desarrollador Full Stack"
+  },
+ "portfolio": {
+  "title": "Proyectos",
+  "projects": [
+    {
+      "title": "Biras Creek Resort – Plataforma de Reservas y Automatización",
+      "description": "Plataforma full-stack de reservas y pagos desarrollada para un resort de lujo en el Caribe. Incluye procesamiento seguro de pagos, panel de administración y workflows automatizados que redujeron más de 40 horas semanales de trabajo manual.",
+      "url": "https://www.biras.com"
     }
-    
+  ]
+}
 
+,
+  "navbar": {
+    "home": "INICIO",
+    "about": "SOBRE MÍ",
+    "skills": "SKILLS",
+    "projects": "PROYECTOS",
+    "contact": "CONTACTO",
+    "english": "EN",
+    "spanish": "ES"
+  },
+  "contact": {
+    "title": "Contacto",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "send": "Enviar"
+  }
+}

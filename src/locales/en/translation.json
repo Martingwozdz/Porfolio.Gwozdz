@@ -1,7 +1,7 @@
 {
   "sobreMi": {
     "title": "About Me",
-    "description": "Hello, I am Martin, a Systems Engineering student with a solid background in Fullstack web development, acquired through a JavaScript bootcamp. My passion for technology is complemented by my professionalism and commitment. Additionally, I am an experienced athlete in yachting and kitesurf, disciplines I have practiced since childhood and that have taught me discipline, concentration, and teamwork. I am always ready to take on new challenges and contribute my energy and enthusiasm. If you are looking for someone who combines passion, professional dedication, and technical skills, I am the right person to join your team and contribute to the success of your projects.",
+    "description": "Hey, I'm Martin—a Full Stack Developer who thrives on turning complex challenges into elegant solutions.\n\nCurrently, I serve as the exclusive IT developer for Biras Creek Resort in the British Virgin Islands, where I architect and maintain their entire technology infrastructure remotely from Buenos Aires. I've built everything from a full-stack booking platform processing 200+ monthly transactions to intelligent N8N automation workflows that eliminated 40+ hours of weekly manual work.\n\nMy approach to development is straightforward: write clean code, focus on results, and always optimize for the end user. I work primarily with React, Node.js, Express, PostgreSQL, and automation tools like N8N—but I'm equally comfortable learning whatever technology the project demands.\n\nBefore diving full-time into software development, I spent 15+ years as a professional sailor and currently compete in kitesurfing at a national level in Argentina. That athletic background taught me discipline, strategic thinking, and how to perform under pressure—skills that directly translate to delivering quality software on tight deadlines.\n\nI'm always open to interesting projects and new opportunities. If you're looking for a developer who can work independently, think strategically, and deliver results—let's talk.",
     "personalData": "Personal Data",
     "birthday": "Birthday",
     "phone": "Phone",
@@ -19,15 +19,14 @@
     "reading": "Reading",
     "downloadCV": "Download CV"
   },
-
   "skills": {
     "title": "Skills",
     "technicalSkills": "Technical Skills",
-    "javascript": "Javascript",
+    "javascript": "JavaScript",
     "htmlCss": "HTML & CSS",
     "postgresql": "PostgreSQL",
     "react": "React",
-    "redux": "Redux",
+    "N8N": "N8N (Workflow Automation)",
     "professionalSkills": "Professional Skills",
     "communication": "Communication",
     "teamwork": "Teamwork",
@@ -35,46 +34,34 @@
     "adaptability": "Adaptability",
     "problemSolving": "Problem Solving"
   },
-  
-    "inicio": {
-      "name": "Martin Gwozdz",
-      "title": "Software Engineer in progress - Full Stack Developer"
-    },
-  
-    
-      "portfolio": {
-        "title": "Portfolio",
-        "projects": [
-          {
-            "title": "Project Title 1",
-            "description": "Brief description of the project."
-          },
-          {
-            "title": "Project Title 2",
-            "description": "Brief description of the project."
-          }
-        ]
-      },
-
-        "navbar": {
-          "home": "HOME",
-          "about": "ABOUT ME",
-          "skills": "SKILLS",
-          "projects": "PROYECTS",
-          "contact": "CONTACT",
-          "english": "EN",
-          "spanish": "ES"
-        },
-        "contact": {
-          "title": "Contact",
-          "name": "Name",
-          "email": "Email",
-          "message": "Message",
-          "send": "Send"
-        }  
+  "inicio": {
+    "name": "Martin Gwozdz",
+    "title": "Software Engineer in progress - Full Stack Developer"
+  },
+  "portfolio": {
+  "title": "Proyects",
+  "projects": [
+    {
+      "title": "Biras Creek Resort – Booking & Automation Platform",
+      "description": "Enterprise-level full-stack reservation and payment platform developed for a luxury Caribbean resort. Includes secure payment processing, admin dashboard, and automated workflows that reduced 40+ hours of manual work per week.",
+      "url": "https://www.biras.com"
     }
-    
-  
-  
-
-
+  ]
+},
+  "navbar": {
+    "home": "HOME",
+    "about": "ABOUT ME",
+    "skills": "SKILLS",
+    "projects": "PROJECTS",
+    "contact": "CONTACT",
+    "english": "EN",
+    "spanish": "ES"
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  }
+}

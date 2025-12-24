@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import birasLogo from '../images/biras.jpg';
 import '../styles/Portfolio.css';
 
 function Portfolio() {
@@ -9,17 +10,19 @@ function Portfolio() {
     <section className="portfolio" id="portfolio">
       <div className="contenido-seccion">
         <h2>{t('portfolio.title')}</h2>
-        <div className="portfolio-item">
-          <img src="img/project1.png" alt="Project 1" />
-          <h3>{t('portfolio.projects[0].title')}</h3>
-          <p>{t('portfolio.projects[0].description')}</p>
+
+        <div className="galeria">
+          <div className="proyecto">
+            <a
+              href="https://www.biras.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Biras Creek Resort"
+            >
+              <img src={birasLogo} alt="Biras Creek Resort" />
+            </a>
+          </div>
         </div>
-        <div className="portfolio-item">
-          <img src="img/project2.png" alt="Project 2" />
-          <h3>{t('portfolio.projects[1].title')}</h3>
-          <p>{t('portfolio.projects[1].description')}</p>
-        </div>
-        {/* Añade más elementos de portfolio según sea necesario */}
       </div>
     </section>
   );

@@ -15,7 +15,7 @@ function Inicio() {
         <h1>{t('inicio.name')}</h1>
         <h2>{t('inicio.title')}</h2>
         <div className="redes">
-          <a href="https://www.linkedin.com/in/martin-gwozdz-71389b166/">
+          <a href="https://www.linkedin.com/in/martingwozdz">
             <i className="fa-brands fa-linkedin-in"></i>
           </a>
           <a href="mailto:martin.gwozdz.it@gmail.com">

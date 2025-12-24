@@ -18,7 +18,7 @@ function SobreMi() {
               <li><strong>{t('sobreMi.phone')}</strong> +54 9 11 3507 6377</li>
               <li><strong>{t('sobreMi.email')}</strong> martin.gwozdz.it@gmail.com</li>
               <li><strong>{t('sobreMi.website')}</strong> www.Worldoftincho.com.ar</li>
-              <li><strong>{t('sobreMi.address')}</strong> Gral Arias 1810, Argentina</li>
+              <li><strong>{t('sobreMi.address')}</strong> Buenos Aires, Argentina</li>
             </ul>
           </div>
           <div className="col">

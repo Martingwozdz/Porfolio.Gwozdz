@@ -36,41 +36,41 @@ function Skills() {
             <h3>{t('skills.technicalSkills')}</h3>
             <div className="skill">
               <span>{t('skills.javascript')}</span>
-              <div className="barra-skill" data-percentage="90%">
+              <div className="barra-skill" data-percentage="99%">
                 <div className="progreso">
-                  <span>90%</span>
+                  <span>99%</span>
                 </div>
               </div>
             </div>
             <div className="skill">
               <span>{t('skills.htmlCss')}</span>
-              <div className="barra-skill" data-percentage="89%">
+              <div className="barra-skill" data-percentage="100%">
                 <div className="progreso">
-                  <span>89%</span>
+                  <span>100%</span>
                 </div>
               </div>
             </div>
             <div className="skill">
               <span>{t('skills.postgresql')}</span>
-              <div className="barra-skill" data-percentage="75%">
+              <div className="barra-skill" data-percentage="100%">
                 <div className="progreso">
-                  <span>80%</span>
+                  <span>100%</span>
                 </div>
               </div>
             </div>
             <div className="skill">
               <span>{t('skills.react')}</span>
-              <div className="barra-skill" data-percentage="85%">
+              <div className="barra-skill" data-percentage="95%">
                 <div className="progreso">
-                  <span>85%</span>
+                  <span>95%</span>
                 </div>
               </div>
             </div>
             <div className="skill">
-              <span>{t('skills.redux')}</span>
-              <div className="barra-skill" data-percentage="55%">
+              <span>{t('skills.N8N')}</span>
+              <div className="barra-skill" data-percentage="95%">
                 <div className="progreso">
-                  <span>55%</span>
+                  <span>95%</span>
                 </div>
               </div>
             </div>
@@ -79,25 +79,25 @@ function Skills() {
             <h3>{t('skills.professionalSkills')}</h3>
             <div className="skill">
               <span>{t('skills.communication')}</span>
-              <div className="barra-skill" data-percentage="80%">
+              <div className="barra-skill" data-percentage="89%">
                 <div className="progreso">
-                  <span>80%</span>
+                  <span>89%</span>
                 </div>
               </div>
             </div>
             <div className="skill">
               <span>{t('skills.teamwork')}</span>
-              <div className="barra-skill" data-percentage="70%">
+              <div className="barra-skill" data-percentage="85%">
                 <div className="progreso">
-                  <span>70%</span>
+                  <span>85%</span>
                 </div>
               </div>
             </div>
             <div className="skill">
               <span>{t('skills.creativity')}</span>
-              <div className="barra-skill" data-percentage="85%">
+              <div className="barra-skill" data-percentage="90%">
                 <div className="progreso">
-                  <span>85%</span>
+                  <span>90%</span>
                 </div>
               </div>
             </div>
@@ -111,9 +111,9 @@ function Skills() {
             </div>
             <div className="skill">
               <span>{t('skills.problemSolving')}</span>
-              <div className="barra-skill" data-percentage="75%">
+              <div className="barra-skill" data-percentage="95%">
                 <div className="progreso">
-                  <span>75%</span>
+                  <span>95%</span>
                 </div>
               </div>
             </div>
