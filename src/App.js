@@ -6,7 +6,7 @@ import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
-import '/Users/tinchogwozdz/Desktop/my-portfolio/src/styles.css';
+import '../src/styles.css';
 
 function App() {
   return (
