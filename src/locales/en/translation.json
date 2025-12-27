@@ -53,15 +53,20 @@
     "about": "ABOUT ME",
     "skills": "SKILLS",
     "projects": "PROJECTS",
-    "contact": "CONTACT",
+    "education": "EDUCATION",
     "english": "EN",
     "spanish": "ES"
   },
-  "contact": {
-    "title": "Contact",
-    "name": "Name",
-    "email": "Email",
-    "message": "Message",
-    "send": "Send"
+  "education": {
+  "title": "Education",
+  "plataforma5": {
+    "title": "Plataforma 5",
+    "description": "High-performance Full Stack Bootcamp with over 800 intensive hours of professional programming. A rigorous training program focused on real-world industry standards, full-scale application development, and complex problem solving. Strong emphasis on hands-on experience, agile methodologies, collaborative work, and continuous technical challenge, preparing developers for production-level environments."
+  },
+  "tiffin": {
+    "title": "Tiffin University",
+    "description": "Internationally recognized university offering advanced studies in Systems Engineering and Information Technology. A high-level academic program focused on software architecture, analytical thinking, and strong engineering fundamentals. Remote learning modality with a global perspective and curriculum aligned with the most demanding technological standards. Location: Ohio, United States."
   }
+}
+
 }

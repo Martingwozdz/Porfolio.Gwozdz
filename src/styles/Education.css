@@ -1,0 +1,106 @@
+.education {
+  position: relative;
+  min-height: 500px;
+  overflow: hidden;
+  color: #fff;
+}
+
+/* Fondos divididos */
+.education-bg {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.99);
+}
+
+.left-bg {
+  left: 0;
+  background-image: url('../images/p5.jpg');
+}
+
+.right-bg {
+  right: 0;
+  background-image: url('../images/tiffin.jpg');
+}
+
+/* Overlay general */
+.education-overlay {
+  position: relative;
+  z-index: 2;
+  padding: 100px 20px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.226),
+    rgba(0, 0, 0, 0.332)
+  );
+}
+
+.education h2 {
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Righteous';
+  margin-bottom: 60px;
+}
+
+/* Grid */
+.education-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+}
+
+/* Card */
+.education-card {
+  background: rgba(255, 255, 255, 0.162);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-8px) scale(1.10);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.366);
+}
+
+/* Logos */
+.edu-logo {
+  max-width: 140px;
+  margin-bottom: 25px;
+  filter: brightness(1.3);
+}
+
+/* Textos */
+.education-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.education-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+  .education-bg {
+    width: 100%;
+  }
+
+  .right-bg {
+    display: none;
+  }
+
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+}

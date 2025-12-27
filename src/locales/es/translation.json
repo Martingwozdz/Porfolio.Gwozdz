@@ -55,15 +55,20 @@
     "about": "SOBRE MÍ",
     "skills": "SKILLS",
     "projects": "PROYECTOS",
-    "contact": "CONTACTO",
+    "education": "EDUCACIÓN",
     "english": "EN",
     "spanish": "ES"
   },
-  "contact": {
-    "title": "Contacto",
-    "name": "Nombre",
-    "email": "Email",
-    "message": "Mensaje",
-    "send": "Enviar"
+  "education": {
+  "title": "Educación",
+  "plataforma5": {
+    "title": "Plataforma 5",
+    "description": "Bootcamp Full Stack de alto rendimiento con más de 800 horas intensivas de programación profesional. Formación rigurosa orientada a estándares reales de la industria, desarrollo de aplicaciones completas y resolución de problemas complejos. Enfoque práctico, metodologías ágiles, trabajo colaborativo y exigencia técnica constante, preparando desarrolladores para entornos productivos de nivel profesional."
+  },
+  "tiffin": {
+    "title": "Tiffin University",
+    "description": "Universidad internacional de prestigio especializada en Ingeniería en Sistemas y Tecnologías de la Información. Programa académico de nivel superior con enfoque estratégico, arquitectura de software, pensamiento analítico y fundamentos sólidos de ingeniería. Modalidad remota, orientación global y contenidos alineados a los estándares tecnológicos más exigentes. Ubicación: Ohio, Estados Unidos."
   }
+}
+
 }

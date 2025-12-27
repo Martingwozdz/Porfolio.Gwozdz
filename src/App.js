@@ -4,9 +4,9 @@ import Inicio from './components/Inicio';
 import SobreMi from './components/SobreMi.js';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
-import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 import '../src/styles.css';
+import Education from './components/Education.js';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <SobreMi />
       <Skills />
       <Portfolio />
-      <Contacto />
+      <Education />
       <Footer />
     </div>
   );
